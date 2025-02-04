@@ -9,7 +9,11 @@ export const Education = () => {
         </h2>
 
         <li className="education-info-content">
-          <a href="https://www.uninter.com/" target="_blank">
+          <a
+            href="https://www.uninter.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -29,6 +33,7 @@ export const Education = () => {
             className="education-info-diploma"
             href="https://1drv.ms/b/c/d0371de40d7de9f8/EfjpfQ3kHTcggNAjCAUAAAABzUOsT0NiCsTjaocckQi3RQ?e=YuIUE7"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -40,7 +45,11 @@ export const Education = () => {
         </li>
 
         <li className="education-info-content">
-          <a href="https://www.uninter.com/" target="_blank">
+          <a
+            href="https://www.uninter.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -59,6 +68,7 @@ export const Education = () => {
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/EvjpfQ3kHTcggNAmCAUAAAAB6ZsW51C_AAAekzX2tMxCGg?e=a35WuE"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -70,7 +80,11 @@ export const Education = () => {
         </li>
 
         <li className="education-info-content">
-          <a href="https://www.uninter.com/" target="_blank">
+          <a
+            href="https://www.uninter.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -88,6 +102,7 @@ export const Education = () => {
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/EvjpfQ3kHTcggNAlCAUAAAABItoz6yNjXbNg5uyZ7aUgsw?e=Rxwdbe"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -104,7 +119,11 @@ export const Education = () => {
         </h2>
 
         <li className="education-info-content">
-          <a href="https://mate.academy/" target="_blank">
+          <a
+            href="https://mate.academy/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -121,6 +140,7 @@ export const Education = () => {
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/EvjpfQ3kHTcggNDYiwQAAAABY0511-1fUwDPCRLSlY3_5g?e=1p5jBF"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -132,7 +152,11 @@ export const Education = () => {
         </li>
 
         <li className="education-info-content">
-          <a href="https://www.alura.com.br/" target="_blank">
+          <a
+            href="https://www.alura.com.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -150,6 +174,7 @@ export const Education = () => {
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/En2aN5OgGSxLuNgcaBvh4xIBMGuezJt7xVpY6qRCS0bkzg?e=6w5SpJ"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -161,7 +186,11 @@ export const Education = () => {
         </li>
 
         <li className="education-info-content">
-        <a href="https://www.alura.com.br/" target="_blank">
+          <a
+            href="https://www.alura.com.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -172,12 +201,14 @@ export const Education = () => {
           </a>
           <p>
             Desenvolvimento de games ferramentas C# , Unity , Spriter 2D e Adobe
-            Ilustrator - CSJ Academy</p>
+            Ilustrator - CSJ Academy
+          </p>
 
           <a
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/Ejn61eGwxh5DiVzix-lprsABjfmpDRfXdyB0kRPOczs4XA?e=q9yPL1"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -189,7 +220,11 @@ export const Education = () => {
         </li>
 
         <li className="education-info-content">
-        <a href="https://www.alura.com.br/" target="_blank">
+          <a
+            href="https://www.alura.com.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="education-info-logo"
               width="70"
@@ -198,13 +233,13 @@ export const Education = () => {
               alt="Universidade Uninter"
             />
           </a>
-          <p>Manipulacao de dados em MYSQL -
-          Alura</p>
+          <p>Manipulacao de dados em MYSQL - Alura</p>
 
           <a
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/Eih6Hcr-DZtOo4-V8nDxfoMBnjiGRoRRG0OnsrITGjVBtQ?e=4R3Z7X"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"
@@ -216,7 +251,7 @@ export const Education = () => {
         </li>
 
         <li className="education-info-content">
-          <a href="https://www.naptec.com.br/" target="_blank">
+          <a href="https://www.naptec.com.br/" target="_blank" rel="noreferrer">
             <img
               className="education-info-logo"
               width="70"
@@ -233,6 +268,7 @@ export const Education = () => {
             className="education-info-diploma"
             href="https://1drv.ms/f/c/d0371de40d7de9f8/EiWZSDCJuXlPigTuMUD6ZrsBnCi0gNJ3D6sEzQiz-Xp_Zg?e=iDvK9w"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               width="50"

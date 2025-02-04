@@ -15,7 +15,6 @@ export const Contatos = () => {
     // Configuração de envio de e-mail usando `mailto`
     const formData = new FormData(e.target);
     const name = formData.get("name");
-    const email = formData.get("email");
     const message = formData.get("message");
 
     const mailtoLink = `mailto:guilherme_vinicius14@live.com?subject=Mensagem de ${name}&body=${encodeURIComponent(
