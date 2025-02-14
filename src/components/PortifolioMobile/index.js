@@ -1,0 +1,1 @@
+export {PortifolioMobile} from './PortifolioMobile';

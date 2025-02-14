@@ -62,7 +62,8 @@
 
 .modal-content {
     font-weight: bold;
-
+    overflow:visible;
+    
     background-image: url("../../img/background.svg");
     border: solid 4px #fff;
     box-shadow: 0 0 10px white;
@@ -87,25 +88,45 @@
 
 .modal-img-container{
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .modal-hover-msg {
   position: absolute;
-  width: 300px;
-  padding: 5px 10px;
-  top: 10px;
-  right: 25px;
-  color: rgb(59, 81, 110);
-  background-color: #ffffff;
-  border-radius: 5px;
+  top: 0;
+  color: #0a0022;
+  width: 300px; 
+  height: 10%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px black;
+  background-color: rgba(255, 255, 255);
   opacity: 0;
   transition: 0.5s ease-in-out;
   z-index: 1;
   user-select: none;
+
+}
+
+.modal-hover-msg::after {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Ajuste a posição vertical */
+  left: 50%;
+  transform: translateX(-20%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent; /* Ajuste o tamanho */
+  border-right: 10px solid transparent; /* Ajuste o tamanho */
+  border-top: 20px solid #ffffff; /* Cor do triângulo */
 }
 
 .modal-img-container:hover .modal-hover-msg {
-  opacity: 80%;
+  opacity: 0.9;
   scale: 1.1;
 
 }

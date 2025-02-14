@@ -24,9 +24,11 @@ export const Header = ({ onLinkClick }) => {
                     <li><a className="nav-link" href="#formacao" onClick={(event) => handleClick(event, 'formacao')}>Formação e Cursos</a></li>
                     <li><a className="nav-link" href="#competencias" onClick={(event) => handleClick(event, 'competencias')}>Competências e Idiomas</a></li>
                     <li><a className="nav-link" href="#portifolio-web" onClick={(event) => handleClick(event, 'portifolio-web')}>Portfólio Web Design</a></li>
+                    <li><a className="nav-link" href="#portifolio-mobile" onClick={(event) => handleClick(event, 'portifolio-mobile')}>Portfólio Mobile</a></li>
                     <li><a className="nav-link" href="#portifolio-games" onClick={(event) => handleClick(event, 'portifolio-games')}>Portfólio Game Design</a></li>
                 </ul>
             </nav>
+
         </header>
     );
 };

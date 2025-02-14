@@ -54,15 +54,15 @@ export const PortifolioWeb = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="modal-hover-msg">
-                  Clique na imagem para ver o projeto !!!
-                </span>
                 <img
                   src={selectedProject.img}
                   alt={selectedProject.alt}
                   className="modal-img--portrait"
                 />
               </a>
+              <span className="modal-hover-msg">
+                  Clique na imagem para ver o projeto !!!
+                </span>
             </div>
             <p className="modal-description">{selectedProject.description}</p>
             <p className="modal-github--text">
