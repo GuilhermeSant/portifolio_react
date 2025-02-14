@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { PortifolioMobileData } from "./PortifolioMobile-data";
-import githubIcon from "../../img/github-icon.png";
 import "./PortifolioMobile.css";
 
 export const PortifolioMobile = () => {
