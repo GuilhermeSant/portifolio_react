@@ -8,6 +8,7 @@ import { Skills } from "../Skills";
 import { Header } from "../Header";
 import { AccordionItem } from "../../Scripts/utils";
 import './Main.css';
+import { PortifolioMobile } from '../PortifolioMobile/PortifolioMobile';
 
 export const Main = () => {
   const [activeId, setActiveId] = useState(null);
@@ -52,6 +53,12 @@ export const Main = () => {
       <div className="accordionItem">
       <AccordionItem id="portifolio-web" title="Portfólio Web Design" isOpen={activeId === 'portifolio-web'}>
         <PortifolioWeb />
+      </AccordionItem>
+      </div>
+
+      <div className="accordionItem">
+      <AccordionItem id="portifolio-mobile" title="Portfólio Mobile" isOpen={activeId === 'portifolio-mobile'}>
+        <PortifolioMobile />
       </AccordionItem>
       </div>
 

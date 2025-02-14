@@ -1,0 +1,196 @@
+@import '../../Styles/Animations.css';
+
+.portifolio-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.portifolio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.container-projects{
+
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-img-mobile{
+    position: relative;
+    height: 250px; 
+    width: 150px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border: solid 1px #fff;
+    box-shadow: 0 0 10px white;
+  }
+
+  .project-img-mobile:hover{
+    transform: scale(1.1);
+  }
+
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    max-width: 400px;
+  }
+
+  .modal-mobile-content {
+  }
+
+.modal-mobile-img--portrait {
+    height: 280px; 
+    width: 170px;
+    transition: 0.5s ease-in-out;
+    border: solid 3px #fff;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+  }
+
+  .modal-mobile-img--portrait:hover  {
+    scale: 1.05;
+  }
+  
+
+
+  .modal-mobile-description {
+    text-align: justify;
+    width: 70%;
+    padding: 10px 20px;
+  }
+
+.modal-mobile-github--text {
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.modal-mobile-github-icon {
+  border: solid 3px #fff;
+  box-shadow: 0 0 10px white;
+  border-radius: 50px;
+}
+
+.modal-mobile-github-icon:hover {
+  animation: glow 1.3s infinite alternate;
+}
+
+.close-modal-mobile {
+    padding: 1px 10px; 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(59, 81, 110);
+    color: #fff;
+    border: solid 3px #fff;
+    box-shadow: 0 0 10px white;
+    border-radius: 50px;
+    opacity: 80%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .modal-mobile-content button:hover {
+    opacity: 1;
+  }
+  
+  .modal-mobile-content button:active {
+    scale: 0.9;
+  }
+
+
+  .modal-mobile-eye-icon {
+    transition: 0.2s ease-in-out;
+  }
+  
+  .qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha verticalmente no centro */
+    width: 100%;
+}
+
+.qr-code-image img {
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+    border: solid 2px white;
+    box-shadow: 0 0 5px white;
+    border-radius: 5px;
+}
+
+.modal-mobile-description {
+    text-align: right; /* Garante que o texto fique alinhado à direita */
+}
+
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Responsividade para tablets */
+@media (max-width: 768px) {
+  .portifolio-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .container-projects {
+      max-width: 90%;
+  }
+
+  .modal-mobile-content {
+      width: 80%;
+      height: auto;
+      padding: 20px;
+  }
+
+  .modal-mobile-img--portrait {
+      width: 100%;
+      height: auto;
+  }
+
+  .modal-mobile-description {
+      width: 90%;
+  }
+
+  .more-project-description {
+      width: 90%;
+  }
+}
+  
+
+@media (max-width: 480px) {
+
+  .more-projects-button {
+    height: 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px 5px 10px;
+    right: 20px;
+  }
+}
